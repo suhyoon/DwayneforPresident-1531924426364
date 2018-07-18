@@ -1,0 +1,64 @@
+.container{
+    display:flex;
+    flex-direction:column; 
+    align-items:center;
+    }
+.header{
+    text-align:center;
+    font-family: 'Monoton', cursive;
+    font-size:50px;
+    color:white;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQjyi6GDYABUS_CpNh0QrZ6oKkdJE_I2KNaD2hcCSWEdgHHSQx");
+    width:100%;
+    border:dashed white;
+    padding:40px;
+}
+#therock{
+    width:50%;
+}
+.Learn{
+    background-color:magenta;
+    width:100%;
+    text-align:center;
+    padding:40px;
+    font-family: 'Boogaloo', cursive;
+    font-size:40px;
+    border:dashed white;
+}
+button{
+    color:white;
+    width:40%;
+    font-size:20px;
+    background-color:black;
+    border:dotted white;
+}
+button:hover {
+    background: yellow;
+    color: white;
+}
+.pics{
+    background-color:skyblue;
+}
+.pics{
+    display: flex;
+    justify-content:space-between; 
+    align-items: center;
+    padding:10px;
+}
+#first{
+    padding:20px;
+}
+#second{
+    padding:20px;
+}
+#third{
+    padding:20px;
+}
+.footer{
+    background-color:lightyellow;
+    width:100%;
+    margin:0px;
+    padding:40px;
+    font-family: 'Boogaloo', cursive;
+    font-size:30px;
+}
